@@ -1,0 +1,27 @@
+What is {name}’s favourite colour?
+What is {name}’s favourite film?
+What is {name}’s favourite song?
+What is {name}’s favourite book?
+What does {name} hate most?
+What makes {name} laugh?
+Does {name} prefer sleeping on their back, side, or front?
+Does {name} like video games?
+Can {name} dance?
+What’s a song that {name} likes?
+Does {name} use an iPhone or android (or other)?
+How many siblings does {name} have?
+Has {name} ever done drugs?
+Does {name} like horror films?
+Would {name} rather go deaf or blind?
+What does {name} like?
+Where is {name} from?
+Does {name} prefer to read or watch TV?
+Would {name} rather swim in a pool or the sea?
+Is {name} a early bird or a night owl?
+Which country would {name} live in, if they couldn't live in their home country?
+What is {name}'s favourite animal?
+Has {name} ever been in a fight?
+Has {name} done martial arts?
+Does {name} like spice?
+Is {name} a thrillseeker?
+Would {name} rather never eat meat or butcher their own?
