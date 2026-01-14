@@ -1,71 +1,144 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=8 format=3 uid="uid://bkt7daghe0ddv"]
 
-[ext_resource path="res://Graphics/blue_button12.png" type="Texture" id=1]
-[ext_resource path="res://Graphics/blue_button11.png" type="Texture" id=2]
-[ext_resource path="res://Graphics/blackboard.jpg" type="Texture" id=3]
-[ext_resource path="res://Graphics/Feltpen.ttf" type="DynamicFontData" id=4]
-[ext_resource path="res://MainGame.gd" type="Script" id=5]
+[ext_resource type="Texture2D" uid="uid://rja07y4hx87q" path="res://Graphics/blue_button12.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://c65ith7o68wxo" path="res://Graphics/blue_button11.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://d342x8t0s8k2y" path="res://Graphics/blackboard.jpg" id="3"]
+[ext_resource type="FontFile" uid="uid://biptthnq21hra" path="res://Graphics/Feltpen.ttf" id="4"]
+[ext_resource type="Script" uid="uid://nvcd3w2wplrs" path="res://MainGame.gd" id="5"]
 
-[sub_resource type="DynamicFont" id=1]
-size = 100
-outline_color = Color( 0.121569, 0.411765, 0.85098, 1 )
-font_data = ExtResource( 4 )
+[sub_resource type="FontFile" id="1"]
+fallbacks = Array[Font]([ExtResource("4")])
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/100/0 = Vector2(0, 0)
+cache/0/20/0/ascent = 0.0
+cache/0/20/0/descent = 0.0
+cache/0/20/0/underline_position = 0.0
+cache/0/20/0/underline_thickness = 0.0
+cache/0/20/0/scale = 1.0
+cache/0/20/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/100/0 = Vector2(0, 0)
+cache/0/50/0/ascent = 0.0
+cache/0/50/0/descent = 0.0
+cache/0/50/0/underline_position = 0.0
+cache/0/50/0/underline_thickness = 0.0
+cache/0/50/0/scale = 1.0
+cache/0/50/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/50/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/50/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/50/0/kerning_overrides/100/0 = Vector2(0, 0)
+cache/0/100/0/ascent = 0.0
+cache/0/100/0/descent = 0.0
+cache/0/100/0/underline_position = 0.0
+cache/0/100/0/underline_thickness = 0.0
+cache/0/100/0/scale = 1.0
+cache/0/100/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/100/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/100/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/100/0/kerning_overrides/100/0 = Vector2(0, 0)
 
-[sub_resource type="DynamicFont" id=2]
-size = 100
-font_data = ExtResource( 4 )
+[sub_resource type="FontFile" id="2"]
+fallbacks = Array[Font]([ExtResource("4")])
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/70/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/100/0 = Vector2(0, 0)
+cache/0/20/0/ascent = 0.0
+cache/0/20/0/descent = 0.0
+cache/0/20/0/underline_position = 0.0
+cache/0/20/0/underline_thickness = 0.0
+cache/0/20/0/scale = 1.0
+cache/0/20/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/70/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/100/0 = Vector2(0, 0)
+cache/0/50/0/ascent = 0.0
+cache/0/50/0/descent = 0.0
+cache/0/50/0/underline_position = 0.0
+cache/0/50/0/underline_thickness = 0.0
+cache/0/50/0/scale = 1.0
+cache/0/50/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/50/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/50/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/50/0/kerning_overrides/70/0 = Vector2(0, 0)
+cache/0/50/0/kerning_overrides/100/0 = Vector2(0, 0)
+cache/0/70/0/ascent = 0.0
+cache/0/70/0/descent = 0.0
+cache/0/70/0/underline_position = 0.0
+cache/0/70/0/underline_thickness = 0.0
+cache/0/70/0/scale = 1.0
+cache/0/70/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/70/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/70/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/70/0/kerning_overrides/70/0 = Vector2(0, 0)
+cache/0/70/0/kerning_overrides/100/0 = Vector2(0, 0)
+cache/0/100/0/ascent = 0.0
+cache/0/100/0/descent = 0.0
+cache/0/100/0/underline_position = 0.0
+cache/0/100/0/underline_thickness = 0.0
+cache/0/100/0/scale = 1.0
+cache/0/100/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/100/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/100/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/100/0/kerning_overrides/70/0 = Vector2(0, 0)
+cache/0/100/0/kerning_overrides/100/0 = Vector2(0, 0)
 
 [node name="MainGame" type="Node2D"]
-script = ExtResource( 5 )
+script = ExtResource("5")
 
 [node name="Background" type="TextureRect" parent="."]
-margin_right = 1920.0
-margin_bottom = 1080.0
-texture = ExtResource( 3 )
-expand = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("3")
+expand_mode = 1
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Background"]
-margin_left = 20.0
-margin_top = 20.0
-margin_right = 1900.0
-margin_bottom = 1060.0
-custom_fonts/normal_font = SubResource( 1 )
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 1900.0
+offset_bottom = 1060.0
+theme_override_fonts/normal_font = SubResource("1")
+theme_override_font_sizes/normal_font_size = 100
 bbcode_enabled = true
-bbcode_text = "[center] Rules:
-1: Those who guess wrong, drink
-2: Those who want their question skipped, drink: [/center] "
 text = " Rules:
-1: Those who guess wrong, drink
-2: Those who want their question skipped, drink:  "
-__meta__ = {
-"_edit_use_anchors_": false
-}
+1: Guess wrong, forfeit
+2: Want to skip the question, forfeit:  "
 
 [node name="NextButton" type="TextureButton" parent="Background"]
-margin_left = 860.0
-margin_top = 700.0
-margin_right = 1060.0
-margin_bottom = 900.0
-texture_normal = ExtResource( 2 )
-texture_pressed = ExtResource( 1 )
-expand = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
+layout_mode = 0
+offset_left = 860.0
+offset_top = 700.0
+offset_right = 1060.0
+offset_bottom = 900.0
+texture_normal = ExtResource("2")
+texture_pressed = ExtResource("1")
+stretch_mode = 0
 
 [node name="ButtonLabel" type="RichTextLabel" parent="Background/NextButton"]
-margin_left = 200.0
-margin_top = 30.0
-margin_right = 700.0
-margin_bottom = 230.0
-custom_fonts/normal_font = SubResource( 2 )
+layout_mode = 0
+offset_left = 200.0
+offset_top = 30.0
+offset_right = 700.0
+offset_bottom = 230.0
+theme_override_fonts/normal_font = SubResource("2")
+theme_override_font_sizes/normal_font_size = 100
 bbcode_enabled = true
-bbcode_text = "Next"
 text = "Next"
-__meta__ = {
-"_edit_use_anchors_": false
-}
+
 [connection signal="pressed" from="Background/NextButton" to="." method="_next_question"]

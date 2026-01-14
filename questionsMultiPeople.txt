@@ -1,0 +1,36 @@
+Would {name} rather kiss {x} or {y}?
+Would {name} rather fight {x} or {y} to the death?
+Who would {name} rather be trapped on a desert island with, {x} or {y}?
+CHALLENGE: Can {name} beat {x} in an arm wrestle?
+CHALLENGE: Can {name} do more push-ups than {x}?
+Would {name} rather be trapped on a desert island with {x} or {y}?
+Who would {name} rather wingman them: {x}, {y}?
+Does {name} think {x} or {y} is funnier?
+Would {name} prefer {x} or {y} to give them a haircut?
+CHALLENGE: Can {name} beat {x} in a staring content?
+CHALLENGE: Can {name} pick up {x}?
+CHALLENGE: Can {name} hold their breath longer than {x}?
+CHALLENGE: Can {name} hold a plank longer than {x}?
+Who would {name} rather have as a teammate in a game of football, {x} or {y}?
+Would {name} rather go on a road trip with {x} or {y}?
+Would {name} rather have a deep conversation about life with {x} or {y}?
+Who would {name} rather have as a study partner, {x} or {y}?
+Would {name} rather be stuck in an elevator with {x} or {y}?
+Who would {name} rather have as a co-worker, {x} or {y}?
+Would {name} rather go on a shopping spree with {x} or {y}?
+Who would {name} rather have as a roommate, {x} or {y}?
+Would {name} rather be in a band with {x} or {y}?
+Who would {name} rather have as a mentor, {x} or {y}?
+Would {name} rather attend a concert with {x} or {y}?
+Who would {name} rather have as a gym partner, {x} or {y}?
+Would {name} rather have a cooking competition against {x} or {y}?
+Who would {name} rather have as a neighbour, {x} or {y}?
+Would {name} rather collaborate on a business venture with {x} or {y}?
+Who would {name} rather have as a gaming partner, {x} or {y}?
+Would {name} rather go on a camping trip with {x} or {y}?
+Would {name} rather go on a cooking competition show with {x} or {y}?
+Who would {name} rather have as a teammate in a trivia game, {x} or {y}?
+Would {name} rather have a karaoke session with {x} or {y}?
+Who would {name} rather have as a partner in a dance competition, {x} or {y}?
+Who would {name} rather have as a co-host for a podcast, {x} or {y}?
+CHALLENGE: Can {name} beat {x} in rock, paper, scissors (best of 3)?

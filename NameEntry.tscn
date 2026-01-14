@@ -1,108 +1,138 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=8 format=3 uid="uid://1ng6o6i41cas"]
 
-[ext_resource path="res://Graphics/blue_button12.png" type="Texture" id=1]
-[ext_resource path="res://Graphics/blue_button11.png" type="Texture" id=2]
-[ext_resource path="res://Graphics/blackboard.jpg" type="Texture" id=3]
-[ext_resource path="res://Graphics/Feltpen.ttf" type="DynamicFontData" id=4]
-[ext_resource path="res://NameEntry.gd" type="Script" id=5]
+[ext_resource type="Texture2D" uid="uid://rja07y4hx87q" path="res://Graphics/blue_button12.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://c65ith7o68wxo" path="res://Graphics/blue_button11.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://d342x8t0s8k2y" path="res://Graphics/blackboard.jpg" id="3"]
+[ext_resource type="FontFile" uid="uid://biptthnq21hra" path="res://Graphics/Feltpen.ttf" id="4"]
+[ext_resource type="Script" uid="uid://de6hlga5nhqjk" path="res://NameEntry.gd" id="5"]
 
-[sub_resource type="DynamicFont" id=1]
-size = 100
-outline_color = Color( 0.121569, 0.411765, 0.85098, 1 )
-font_data = ExtResource( 4 )
+[sub_resource type="FontFile" id="2"]
+fallbacks = Array[Font]([ExtResource("4")])
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/3/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/1/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/100/0 = Vector2(0, 0)
+cache/0/3/0/ascent = 0.0
+cache/0/3/0/descent = 0.0
+cache/0/3/0/underline_position = 0.0
+cache/0/3/0/underline_thickness = 0.0
+cache/0/3/0/scale = 1.0
+cache/0/3/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/3/0/kerning_overrides/3/0 = Vector2(0, 0)
+cache/0/3/0/kerning_overrides/1/0 = Vector2(0, 0)
+cache/0/3/0/kerning_overrides/100/0 = Vector2(0, 0)
+cache/0/1/0/ascent = 0.0
+cache/0/1/0/descent = 0.0
+cache/0/1/0/underline_position = 0.0
+cache/0/1/0/underline_thickness = 0.0
+cache/0/1/0/scale = 1.0
+cache/0/1/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/1/0/kerning_overrides/3/0 = Vector2(0, 0)
+cache/0/1/0/kerning_overrides/1/0 = Vector2(0, 0)
+cache/0/1/0/kerning_overrides/100/0 = Vector2(0, 0)
+cache/0/100/0/ascent = 0.0
+cache/0/100/0/descent = 0.0
+cache/0/100/0/underline_position = 0.0
+cache/0/100/0/underline_thickness = 0.0
+cache/0/100/0/scale = 1.0
+cache/0/100/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/100/0/kerning_overrides/3/0 = Vector2(0, 0)
+cache/0/100/0/kerning_overrides/1/0 = Vector2(0, 0)
+cache/0/100/0/kerning_overrides/100/0 = Vector2(0, 0)
 
-[sub_resource type="DynamicFont" id=2]
-size = 100
-font_data = ExtResource( 4 )
-
-[sub_resource type="DynamicFont" id=3]
-size = 100
-font_data = ExtResource( 4 )
+[sub_resource type="FontFile" id="3"]
+fallbacks = Array[Font]([ExtResource("4")])
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/100/0 = Vector2(0, 0)
+cache/0/100/0/ascent = 0.0
+cache/0/100/0/descent = 0.0
+cache/0/100/0/underline_position = 0.0
+cache/0/100/0/underline_thickness = 0.0
+cache/0/100/0/scale = 1.0
+cache/0/100/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/100/0/kerning_overrides/100/0 = Vector2(0, 0)
 
 [node name="NameEntryBox" type="Node2D"]
-script = ExtResource( 5 )
+script = ExtResource("5")
 
 [node name="Background" type="TextureRect" parent="."]
-margin_right = 1920.0
-margin_bottom = 1080.0
-texture = ExtResource( 3 )
-expand = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("3")
+expand_mode = 1
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Background"]
-margin_left = 20.0
-margin_top = 20.0
-margin_right = 1900.0
-margin_bottom = 1060.0
-custom_fonts/normal_font = SubResource( 1 )
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 1900.0
+offset_bottom = 1060.0
+theme_override_fonts/normal_font = ExtResource("4")
+theme_override_font_sizes/normal_font_size = 100
 bbcode_enabled = true
-bbcode_text = "[center] Please enter the names of the people who will be playing and then press play.  [/center] "
-text = " Please enter the names of the people who will be playing and then press play.   "
-__meta__ = {
-"_edit_use_anchors_": false
-}
+text = "[center] Please enter the names of the people who will be playing and then press play.  [/center] "
 
 [node name="TextBox" type="LineEdit" parent="Background"]
-margin_left = 150.0
-margin_top = 820.0
-margin_right = 1328.0
-margin_bottom = 985.0
-custom_fonts/font = SubResource( 2 )
+layout_mode = 0
+offset_left = 150.0
+offset_top = 820.0
+offset_right = 1328.0
+offset_bottom = 985.0
+theme_override_fonts/font = SubResource("2")
+theme_override_font_sizes/font_size = 100
 placeholder_text = "Enter a Name"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="EnterButton" type="TextureButton" parent="Background"]
-margin_left = 1350.0
-margin_top = 800.0
-margin_right = 1550.0
-margin_bottom = 1000.0
-texture_normal = ExtResource( 2 )
-texture_pressed = ExtResource( 1 )
-expand = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
+layout_mode = 0
+offset_left = 1350.0
+offset_top = 800.0
+offset_right = 1550.0
+offset_bottom = 1000.0
+texture_normal = ExtResource("2")
+texture_pressed = ExtResource("1")
+stretch_mode = 0
 
 [node name="ButtonLabel" type="RichTextLabel" parent="Background/EnterButton"]
-margin_left = 200.0
-margin_top = 30.0
-margin_right = 700.0
-margin_bottom = 230.0
-custom_fonts/normal_font = SubResource( 3 )
+layout_mode = 0
+offset_left = 200.0
+offset_top = 30.0
+offset_right = 700.0
+offset_bottom = 230.0
+theme_override_fonts/normal_font = SubResource("3")
+theme_override_font_sizes/normal_font_size = 100
 bbcode_enabled = true
-bbcode_text = "Enter"
 text = "Enter"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Play" type="TextureButton" parent="Background"]
-margin_left = 1350.0
-margin_top = 550.0
-margin_right = 1550.0
-margin_bottom = 750.0
-texture_normal = ExtResource( 2 )
-texture_pressed = ExtResource( 1 )
-expand = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
+layout_mode = 0
+offset_left = 1350.0
+offset_top = 550.0
+offset_right = 1550.0
+offset_bottom = 750.0
+texture_normal = ExtResource("2")
+texture_pressed = ExtResource("1")
+stretch_mode = 0
 
 [node name="ButtonLabel" type="RichTextLabel" parent="Background/Play"]
-margin_left = 200.0
-margin_top = 30.0
-margin_right = 700.0
-margin_bottom = 230.0
-custom_fonts/normal_font = SubResource( 3 )
+layout_mode = 0
+offset_left = 205.0
+offset_top = 14.0
+offset_right = 705.0
+offset_bottom = 214.0
+theme_override_fonts/normal_font = SubResource("3")
+theme_override_font_sizes/normal_font_size = 100
 bbcode_enabled = true
-bbcode_text = "Play"
 text = "Play"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-[connection signal="pressed" from="Background/EnterButton" to="." method="_on_EnterButton_pressed"]
+
+[connection signal="pressed" from="Background/EnterButton" to="." method="_on_enter_button_pressed"]
 [connection signal="pressed" from="Background/Play" to="." method="_button_Play"]

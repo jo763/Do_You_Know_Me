@@ -1,4 +1,4 @@
 extends Node
 
 
-onready var player_names = []
+@onready var player_names = []

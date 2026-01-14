@@ -1,8 +1,7 @@
 What is {name}’s favourite colour?
-What is {name}’s favourite film?
-What is {name}’s favourite song?
-What is {name}’s favourite book?
-What does {name} hate most?
+What is a film that {name} likes?
+What is a book that {name} enjoys?
+What does {name} hate?
 What makes {name} laugh?
 Does {name} prefer sleeping on their back, side, or front?
 Does {name} like video games?
@@ -10,18 +9,113 @@ Can {name} dance?
 What’s a song that {name} likes?
 Does {name} use an iPhone or android (or other)?
 How many siblings does {name} have?
-Has {name} ever done drugs?
 Does {name} like horror films?
 Would {name} rather go deaf or blind?
 What does {name} like?
 Where is {name} from?
 Does {name} prefer to read or watch TV?
 Would {name} rather swim in a pool or the sea?
-Is {name} a early bird or a night owl?
+Is {name} an early bird or a night owl?
 Which country would {name} live in, if they couldn't live in their home country?
 What is {name}'s favourite animal?
-Has {name} ever been in a fight?
 Has {name} done martial arts?
-Does {name} like spice?
+Does {name} like spicy food?
 Is {name} a thrillseeker?
 Would {name} rather never eat meat or butcher their own?
+Would {name} rather be able to talk to animals or read people’s minds?
+Would {name} rather be a lion or a chimpanzee?
+Would {name} rather be a vet or a pet?
+Would {name} rather have every book ending spoilt or not be able to read in peace and quiet?
+Would {name} rather meet their favourite character or celebrity?
+Would {name} rather be a writer or an illustrator?
+Would {name} rather be an astronaut or a footballer?
+Does {name} like pineapple on their pizza?
+Would {name} rather live in ancient Rome or Victorian London?
+Would {name} rather live in France or Germany?
+Would {name} rather work from home or in an office?
+Would {name} rather do a high-paying job they despise or a low-paying one that they enjoy?
+Would {name} rather be a drummer or a lead guitarist?
+Can {name} play a musical instrument?
+Would {name} rather be able to speak Mandarin Chinese or French and Spanish?
+Would {name} kill one innocent person to save 5 innocent people?
+Has {name} ever broken a bone?
+Has {name} ever gotten into a fight?
+Does {name} like sailing?
+Is {name} scared of spiders?
+Can {name} swim?
+Does {name} have any allergies?
+Does {name} prefer running or swimming?
+Has {name} ever been to Germany?
+Has {name} ever been to Asia?
+Does {name} like to read books?
+Does {name} like wearing mismatched socks?
+How tall is {name} to the nearest 2 inches (or 5 cm)?
+Was {name} ever in the scouting or guiding movement?
+Would {name} rather be too hot or too cold?
+Did {name} like secondary/high school?
+Does {name} like Ketchup?
+Which Hogwarts house would {name} choose to be in?
+Does {name} like playing sports?
+What job would {name} be bad at?
+Does {name} like museums?
+Would {name} rather go gliding or white-water rafting?
+Can {name} drive?
+Does {name} prefer cats or dogs?
+Does {name} prefer sweet of savoury food?
+What genre of music does {name} like?
+Does {name} look at their poo after using the toilet?
+Can {name} sew?
+Would {name} rather be a farmer or a teacher?
+{name}, tell everyone the first letter of your middle name. What is {name}’s middle name?
+Does {name} like camping?
+Would {name} prefer to be able to breathe underwater or fly but only 20 cm above the ground?
+Does {name} prefer chocolate or crisps? 
+10 years from now, would {name} rather live in a city or in the countryside?
+How many pets does {name} have?
+Does {name} know any sign language?
+Would {name} rather join the army, navy or RAF?
+Has {name} ever smoked a cigarette, cigar or e-cig?
+Does {name} like sushi?
+Would {name} rather be hungry or tired?
+Does {name} think aliens exist?
+Would {name} rather fight 100 duck-sized horses or 1 horse-sized duck?
+Would {name} rather eat just McDonald’s for 3 weeks or not eat fruit and vegetables for a month?
+Would {name} rather always have sweaty hands, or have two random molars missing?
+Has {name} ever been to Africa?
+Is {name} fluent in a foreign language?
+Would {name} rather be an elephant or a dolphin?
+If {name} was approached by a stranger offering to buy their soul for £5, would they accept?
+Would {name} rather go to the zoo or a theme park?
+Does {name} keep houseplants?
+Does {name} like hiking?
+What is {name} scared of?
+Would {name} rather lose a leg or their dominant arm? 
+If {name} was offered 1,000,000 GBP but there was a 15 percent chance they would instantly die, would they accept?
+Would {name} rather get a tattoo on their chest or both their arms?
+Does {name} enjoy watching sports?
+Does {name} go to the gym?
+Would {name} rather be a pilot or a ship captain?
+Would {name} rather have the ability to fly or be invisible?
+Would {name} rather travel 100 years into the past or 100 years into the future?
+Would {name} rather live in a world with no technology or a world with no art?
+Would {name} rather have the ability to speak all languages fluently or play any musical instrument skillfully?
+Would {name} rather live without internet for a week or without their phone for a month?
+Would {name} rather always have to sing instead of speaking or dance everywhere they go?
+Would {name} rather have the power of super strength or super speed?
+Would {name} rather have the ability to teleport anywhere or be able to time travel?
+Would {name} rather have the ability to control the weather or control people's emotions?
+Would {name} rather live without music or without movies and TV shows?
+Would {name} rather have a personal chef or a personal assistant?
+Would {name} rather have the power to control fire or the power to control water?
+Would {name} rather have a photographic memory or the ability to forget anything they want?
+Would {name} rather live in a house on the beach or a cabin in the mountains?
+Would {name} rather have the power to never feel physical pain or never feel emotional pain?
+Would {name} rather be a famous athlete or a famous actor/actress?
+Would {name} rather live without music or live without books?
+Would {name} rather have the power of invisibility or the power of super strength?
+Would {name} rather have a pet dinosaur or a pet dragon?
+Would {name} rather be able to control their dreams or be able to control the dreams of others?
+Would {name} rather have a personal chef who prepares all their meals or a personal fitness trainer who helps them stay in shape?
+Would {name} rather have the power to control minds or have the power to control elements (fire, water, earth, and air)?
+Would {name} rather be able to visit any place in the world for free or eat at any restaurant for free?
+Would {name} rather always have to wear formal attire or always have to wear pajamas?

@@ -1,76 +1,82 @@
 extends Node2D
 
+var questionList:Array = []
+var askedQuestions:Array = []
+var questioned_asked:String
+var playerNum:int
+var player:String
+var second_player:String
+var third_player:String
+var playersLeft:Array
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+@onready var file:String = "res://questions.txt"
+@onready var fileMultiPeople:String = "res://questionsMultiPeople.txt"
 
- 
-var stories = [""]
-
-var selectedName = "bob"
-var selectedStory = "There once was a scrub named {name}, who hated {name}"
-var completeStory = selectedStory.format({"name" : "test"})
-var questionList = []
-var questioned_asked
-var playerNum
-var player
-#var player_names
-#
-
-
-onready var file = "res://questions.txt"
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	#player_names = ["Bob", "Rachel", "Jimmy"]
 	playerNum = 0
-	
 	questionList = load_questions()
-	print(questionList)
-	pass # Replace with function body.
 
 func load_questions():
-	var loadedQuestions = []
-	var sourceFile = File.new()
-	sourceFile.open(file, File.READ)
+	var loadedQuestions:Array = []
+	var sourceFile = FileAccess.open(file, FileAccess.READ)
+	if sourceFile == null:
+		push_error("Failed to open questions file!")
 	while not sourceFile.eof_reached():
 		var line = sourceFile.get_line()
 		loadedQuestions.append(line)
 	sourceFile.close()
+	if len(GLOBAL.player_names) > 2:
+		sourceFile = FileAccess.open(fileMultiPeople, FileAccess.READ)
+		while not sourceFile.eof_reached():
+			var line = sourceFile.get_line()
+			loadedQuestions.append(line)
+		sourceFile.close()
 	return loadedQuestions
-	#file.open(path)
 	
-	pass
-	
-func randomiseQuestion(questionList):
+func randomiseQuestion():
 	randomize()
 	questioned_asked = questionList [randi() % questionList.size()]
-	#print(questioned_asked)
 	return questioned_asked
-	pass
 
-func nextPlayer(player_names, playerNum):
-	#print(player_names)
+func nextPlayer(player_names):
 	player = player_names[playerNum]
 	return player
-	pass	
 
-func form_question(questionList, player_names, playerNum):
-	var selectedQuestion = randomiseQuestion(questionList)
-	var selectedName = nextPlayer(player_names, playerNum)
+func otherPlayers(player_names):
+	playersLeft = GLOBAL.player_names.duplicate()
+	playersLeft.erase(player)
+	randomize()
+	print("playersLeft: ", playersLeft)
+	second_player = playersLeft[randi() % playersLeft.size()]
+	playersLeft.erase(second_player)
+	if len(GLOBAL.player_names) > 2: 
+		third_player = playersLeft[randi() % playersLeft.size()]
 
-
-	var completeQuestion = selectedQuestion.format({"name" : selectedName})
-	print(completeQuestion)
-	$Background/RichTextLabel.text = completeQuestion
-	pass
+func form_question( player_names):
+	var selectedName = nextPlayer(player_names)
+	var completeQuestion
+	if len(askedQuestions) >= (len(questionList)-1):
+		$Background/RichTextLabel.text = "Sorry, that's all the questions folk!"
+		$Background/NextButton.visible = false
+	else:
+		while true:
+			var selectedQuestion = randomiseQuestion()
+			completeQuestion = selectedQuestion.format({"name" : selectedName})
+			otherPlayers(GLOBAL.player_names)
+			completeQuestion = completeQuestion.format({"x" : second_player})
+			completeQuestion = completeQuestion.format({"y" : third_player})
+			
+			if selectedQuestion in askedQuestions:
+				continue
+			else:
+				askedQuestions.append(selectedQuestion)
+				break
+		
+		print(completeQuestion)
+		$Background/RichTextLabel.text = completeQuestion
 
 func _next_question():
-	#print(player_names)
-	#print("next question")
-	form_question(questionList, GLOBAL.player_names, playerNum)
+	form_question(GLOBAL.player_names)
 	playerNum +=1
 	if playerNum == GLOBAL.player_names.size():
 		playerNum = 0
-	pass # Replace with function body.
